@@ -26,6 +26,3 @@ Bu repo, Python öğrenirken yazdığım çeşitli kod örneklerini içermektedi
 ### 6. **Veri Setleri**
 - Çeşitli **veri setleri** üzerinde yapılan analizler ve manipülasyonlar.
 - Örnek veri setleri kullanarak veri işleme, görselleştirme ve modelleme işlemleri.
-
-## Proje Yapısı
-
