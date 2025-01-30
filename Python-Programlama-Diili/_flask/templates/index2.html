@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu Uygulaması</title>
+</head>
+<body>
+    <h1>Hava Durumu Uygulaması</h1>
+
+    <form method="POST">
+        <label for="city">Şehir Adı:</label>
+        <input type="text" name="city" required>
+        <button type="submit">Hava Durumunu Gör</button>
+    </form>
+
+    {% if city %}
+        <h2>{{ city }}, {{ country }}</h2>
+        <p>Isı: {{ temperature }} °C</p>
+        <p>Basınç: {{ pressure }} hPa</p>
+        <p>Nem: {{ humidity }}%</p>
+        <p>Açıklama: {{ description }}</p>
+        <p>Rüzgar Hızı: {{ wind_speed }} m/s</p>
+    {% elif error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
+

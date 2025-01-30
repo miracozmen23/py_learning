@@ -1,0 +1,3 @@
+miraç özmen:3,80,90
+mehmet özmen:55,60,25
+alperen özmen:80,70,90
